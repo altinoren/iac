@@ -65,7 +65,7 @@
         "windowsVmTemplateURL": "[uri(variables('baseUri'),'../primitives/windowsvm.json')]",
         "AgentConfigureModuleURL": "[uri(variables('baseUri'), 'DSC/ConfigureASEBuildAgent.ps1.zip')]",
         "AgentConfigureFunction": "ConfigureASEBuildAgent.ps1\\ConfigureASEBuildAgentDsc",
-        "agentDownloadUrl": "https://vstsagentpackage.azureedge.net/agent/2.127.0/vsts-agent-win-x64-2.127.0.zip",
+        "agentDownloadUrl": "https://vstsagentpackage.azureedge.net/agent/2.129.1/vsts-agent-win-x64-2.129.1.zip",
 
     },
     "resources": [
